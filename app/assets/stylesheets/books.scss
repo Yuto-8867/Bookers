@@ -1,0 +1,100 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  display:block;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+
+.heading {
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.index-wrapper {
+  padding-left:40px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    font-size:12px;
+}
+
+.title {
+  margin-left:50px;
+}
+
+h2 {
+  font-weight:bold;
+  font-size:20px;
+}
+
+.content {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.body-content {
+  margin-top:10px;
+}
+
+.show-content {
+  display:flex;
+  flex-direction: column;
+  padding: 0  0 33px 33px;
+  text-size: 13px
+}
+
+.show-body {
+  padding-top:33px;
+  text-size:13px
+}
+
+.show {
+  padding:33px;
+  text-size: 13px
+}
+
+.edit-wrapper {
+  padding: 1px 0 0 25px;
+}
+
+label {
+  font-size:13px;
+}
+
+.body {
+  padding-top:5px;
+}
+
+.flash-comment {
+  padding-bottom:15px;
+  color:green;
+}

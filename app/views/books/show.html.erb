@@ -1,0 +1,13 @@
+<body>
+  <div class="show">
+    <div class="show-content">
+      <div class="flash-comment"><%= flash[:notice] %></div>
+      <strong>Title:<span><%= @book.title %></span></strong>
+      <strong class="show-body">Body:<span><%= @book.body %></span></strong>
+    </div>
+
+    <div class="show-link">
+      <%= link_to"Edit",edit_book_path(@book.id) %> | <%= link_to"Back",'/books' %>
+    </div>
+  </div>
+</body>
